@@ -12,7 +12,6 @@ class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
 }
-
 class _MyAppState extends State<MyApp> {
   final Map<String, HighlightedWord> _highlights = {
     'flutter': HighlightedWord(
